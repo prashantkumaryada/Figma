@@ -1,0 +1,483 @@
+.top-bar {
+    background-color: #4A148C;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.875rem;
+    height: 40px;
+}
+
+
+/* header */
+.header {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header .nav-link {
+    font-size: 0.875rem;
+}
+.header .shop-now {
+    background-color: #FFEB3B;
+    color: black;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 12px;
+}
+
+
+/* Main Content */
+.main-content {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+.main-content image {
+    height: 150px;
+    width: 150px;
+}
+.main-content h1 {
+    color: red;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main-content .highlight {
+    background-color: #FFEB3B;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.main-content p {
+    font-size: 1.125rem;
+    max-width: 812px;
+    height: 86px;
+    margin: 0 auto;
+    opacity: 80%;
+}
+
+
+
+/* Hero section */
+.hero-section {
+    position: relative;
+    color: white;
+}
+.hero-section img {
+    width: 100%;
+    height: auto;
+}
+.hero-text-left h1 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+.hero-text-left p {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+.hero-text-bottom-right {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    transform: translateY(-50%);
+    background: transparent;
+    padding: 20px;
+    border: 2px solid rgb(251, 249, 249);
+    border-radius: 25px;
+}
+
+
+
+/* main content1 part */
+.main-content1 {
+    text-align: center;
+    padding: 1.5rem;
+}
+.main-content1 h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1a202c;
+    margin-bottom: 1rem;
+}
+.main-content1 p {
+    color: #4a5568;
+    margin-bottom: 1px;
+    margin-left: 140px;
+    max-width: 100%;
+    Height: auto;
+    Opacity: 80%;
+}
+.btn-yellow {
+    background-color: #facc15;
+    color: #1a202c;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+.btn-yellow:hover {
+    background-color: #eab308;
+}
+.link-demo {
+    color: #4a5568;
+    text-decoration: underline;
+    transition: color 0.3s;
+    margin-left: 10px;
+}
+.link-demo:hover {
+    color: #1a202c;
+}
+
+
+/* Don’t Fall For Copycats! Part */
+.body {
+    background-color: #F0F2F3;
+}
+.icon-container {
+    color: white;
+    width: 128px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.card {
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: Hug (418px);
+    height: Hug (330px);
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #1a202c;
+}
+.card-text {
+    color: #718096;
+}
+
+
+/* The beauty Part */
+.image {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+
+ /* Before After Part */
+.body2 {
+    background-color: #F0F2F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conta {
+    text-align: center;
+    padding: 2rem;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1rem;
+}
+.description {
+    color: #718096;
+    margin-bottom: 2rem;
+}
+.image-container {
+    position: relative;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+.image-container span {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.875rem;
+}
+.image-container span1 {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 10rem;
+    /* text-align: center; */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.875rem;
+}
+.cta-button {
+    background-color: #facc15;
+    color: #2d3748;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s;
+    border-radius: 12px;
+}
+.cta-button:hover {
+    background-color: #eab308;
+}
+
+
+
+/* Product add part */
+
+.productadd {
+    font-family: 'Inter', sans-serif;
+}
+.product-image {
+    border: 4px solid #FFEB3B;
+    border-radius: 0.5rem;
+}
+.color-option {
+    width: 155px;
+    height: 64px;
+    border-radius: 13px;
+    border: 1px solid #ccc;
+}
+.btn-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-custom i {
+    margin-left: 0.5rem;
+}
+
+
+
+/* Testimonial sectuion */
+
+.testimonial-section {
+    background-color: #fff;
+    color: #4a4a4a;
+    padding: 60px 0;
+}
+.testimonial-section h2 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #6c757d;
+    text-transform: uppercase;
+}
+.testimonial-section h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #212529;
+}
+.testimonial-section p {
+    color: #6c757d;
+}
+.testimonial-section .underline {
+    width: 64px;
+    height: 4px;
+    background-color: #ffc107;
+    margin: 16px auto;
+}
+.testimonial-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+    position: relative;
+}
+.testimonial-card p {
+    color: #4a4a4a;
+}
+.testimonial-card .profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.testimonial-card .quote-icon {
+    color: #e9ecef;
+    font-size: 4rem;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+.testimonial-navigation button {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin: 0 8px;
+}
+
+
+/* Paragraph part */
+.Paragraph {
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    background-color: #F0F2F3;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    text-align: center;
+}
+.btn-custom1 {
+    background-color: #ffc107;
+    color: black;
+    font-weight: 600;
+    border-radius: 12px;
+}
+.btn-custom:hover {
+    background-color: #e0a800;
+}
+
+
+
+/* Video part */
+.hero-section1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+}
+.hero-text {
+    color: white;
+    font-size: 1rem;
+    /* font-weight: bold; */
+}
+.hero-text br {
+    display: none;
+}
+.hero-button {
+    background-color: #ffc107;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: inline-flex;
+    align-items: center;
+}
+.hero-button i {
+    margin-left: 0.5rem;
+}
+@media (min-width: 768px) {
+    .hero-text {
+        font-size: 2rem;
+    }
+
+    .hero-text br {
+        display: inline;
+    }
+
+    .hero-button {
+        font-size: 1rem;
+    }
+}
+
+
+/* footer */
+
+.footer {
+    padding: 40px 0;
+    background-color: #1E1B34;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-input {
+    background: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #FFC107;
+    border: none;
+    padding: 10px 20px 10px;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+    max-width: 100px;
+    max-height: 45px;
+}
+
+.footer-right {
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.footer-right h6 {
+    font: bold;
+}
+
+.subscribeBtn {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.footer-top {
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+
+.footerBottom {
+    padding-top: 20px;
+}
